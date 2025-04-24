@@ -36,7 +36,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: fanil1991/sprint12
+          images: fanil1991/golang-hello
 
       - name: Build and push Docker Inage
         uses: docker/build-push-action@v5
